@@ -1,0 +1,72 @@
+form{
+    border: 2px solid black;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: springgreen;
+}
+
+img{
+    filter: motionBlur();
+}
+
+label{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.Personalandadministration{
+    background: blue;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+}
+
+.title{
+    padding: 5px;
+}
+
+.Nextofkin{
+    background: blue;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+}
+.inputstyle{
+    width: 200%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 1%
+}
+
+.checkbox{
+    display: flex;
+}
+
+#thebutton {
+    width: 25%;
+    float: right;
+    padding: 8px 8px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+.Paymetdetails{
+    background: blue;
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+
+.buttonhr {
+    width: 25%;
+    float: right;
+    padding: 8px 8px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}

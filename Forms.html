@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+<h3>Fill out this form please</h3>
+<form action="#">
+    <div>
+        <label>Full name</label><br>
+        <label>
+            <input class="inputstyle" type="Text" name="fname" Placeholder=" Mareille">
+        </label>
+    </div>
+
+    <div>
+        <label> Second name</label><br>
+        <label>
+            <input class="inputstyle" type="Text" Name=" Sname" placeholder="Timini">
+        </label>
+    </div>
+    <div>
+        <label> Email adress</label><br>
+        <label>
+            <input class="inputstyle" type="Tel" name="mail" placeholder="mareilletimini@example.com">
+        </label>
+    </div>
+    <div>
+        <label> Phone number</label><br>
+        <label>
+            <input class="inputstyle" type="tel" name="pnumber" placeholder="+254115880602">
+        </label>
+    </div>
+
+    <div>
+        <label> Date of birth</label><br>
+        <label>
+            <input class="inputstyle" type="date" name="dob">
+        </label>
+    </div>
+    <div>
+        <label> Github link</label><br>
+        <label>
+            <input class="inputstyle" type="url" name="github" placeholder="www.github.com">
+        </label>
+    </div>
+    <div>
+        <label> Location</label><br>
+        <label>
+            <select class="inputstyle" name="Location">
+                <option value="Nairobi">Nairobi</option>
+                <option value="Nakuru">Nakuru</option>
+                <option value="Kisumu">Kisumu</option>
+                <option value="Eldoret">Eldoret</option>
+                <option value="Mombasa">Mombasa</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label> Gender</label><br>
+        <label>
+            <input type="radio" name="gender"  value="female">
+        </label>
+        <label> Female</label>
+        <label>
+            <input type="radio" name="gender" value="Male">
+        </label>
+        <label> Male</label>
+    </div>
+    <div>
+        <label>Stack</label><br>
+        <label>
+            <input type="Checkbox" name="stack" value="frontend">
+        </label>
+        <label>front end</label>
+        <label>
+            <input type="checkbox" name="stack" value="backend">
+        </label>
+        <label>Back end</label>
+        <label>
+            <input type="checkbox" name="stack" value="fullstack">
+        </label>
+        <label>Full stack</label>
+    </div>
+    <div>
+        <label>Any other information</label><br>
+        <label>
+            <textarea name="aoi" cols="30" rows="10"></textarea>
+        </label>
+    </div>
+    <div>
+        <input id="thebutton" type="Submit" value="Submit">
+    </div>
+
+</form>
+
+</body>
+</html>
