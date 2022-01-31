@@ -1,5 +1,5 @@
 form{
-    border: 2px solid black;
+    border: 1px solid black;
     width: 88%;
     margin-left: auto;
     margin-right: auto;
@@ -12,7 +12,7 @@ label{
 }
 
 .inputstyle{
-    width: 100%;
+    width: 70%;
     padding: 10px;
     box-sizing: border-box;
     margin: 8px
@@ -20,8 +20,8 @@ label{
 
 #thebutton{
     background-color: crimson;
-    padding: 8px;
-    width: 20%;
+    padding: 12px;
+    width: 40%;
     float: right;
     color: white;
 
@@ -29,7 +29,7 @@ label{
 
 h3{
     text-align: center;
-    font-family: TlwgTypewriter;
+    font-family: TlwgTypewriter, serif;
     color: brown;
 }
 
